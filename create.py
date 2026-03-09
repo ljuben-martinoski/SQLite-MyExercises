@@ -32,5 +32,6 @@ cursor.executescript("""
         );
                                                                
 """)
+
 connection.commit()
 connection.close()
