@@ -1,5 +1,5 @@
 import sqlite3
-connection = sqlite3.connect('my_database')
+connection = sqlite3.connect('my_database.db')
 cursor = connection.cursor()
 
 
@@ -11,7 +11,8 @@ cursor.execute("""
         ('Ema', 'Mononoka', 'Erlangen', 33, 'Johan-Kalb-Str. Nr:56',
          'defr@ggg.com'),
         ('Bruce', 'Wain', 'Nürnberg', 43, 'Rathensbergerstraße Nr:44',
-         'aasd@g.com')
+         'aasd@g.com'),
+        ('John', 'Wayne', 'Nürnberg', 55, 'ROmeostraße Nr.12', 'werber@eee.com' )       
 """)
 connection.commit()
 connection.close()
