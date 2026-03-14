@@ -21,3 +21,5 @@ ALTER TABLE produkte RENAME COLUMN preis_text TO preis;
 
 connection.commit()
 connection.close()
+
+print("Verbindung geschlossen.")

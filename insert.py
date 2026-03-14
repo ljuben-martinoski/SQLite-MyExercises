@@ -12,7 +12,7 @@ cursor.execute("""
          'defr@ggg.com'),
         ('Bruce', 'Wain', 'Nürnberg', 43, 'Rathensbergerstraße Nr:44',
          'aasd@g.com'),
-        ('John', 'Wayne', 'Nürnberg', 55, 'ROmeostraße Nr.12', 'werber@eee.com' )       
+        ('John', 'Wayne', 'Nürnberg', 55, 'ROmeostraße Nr.12', 'werber@eee.com')       
 """)
 connection.commit()
 connection.close()
